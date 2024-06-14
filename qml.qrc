@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>LeftSideButton.qml</file>
+        <file>MyButton.qml</file>
+        <file>TellTale.qml</file>
+        <file>main.qml</file>
+        <file>MyButtonsBackground.qml</file>
+        <file>Engine.qml</file>
+        <file>Connectivity.qml</file>
+    </qresource>
+</RCC>

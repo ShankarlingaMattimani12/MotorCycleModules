@@ -1,0 +1,5 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/TvsProject">
+<file alias="main.qml">/media/shankar/Data/QMLLearn/TvsProject/main.qml</file>
+</qresource>
+</RCC>
