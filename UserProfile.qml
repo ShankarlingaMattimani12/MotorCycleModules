@@ -6,6 +6,7 @@ Rectangle {
     height: parent.height
     color: "white"
 
+
     GridLayout {
         id: grid1
         width: parent.width *0.75
@@ -13,20 +14,21 @@ Rectangle {
         anchors.centerIn: parent
 
         MyButtonsBackground {
-            text: "Left Indicator"
+            text: "Rider Info"
             onClicked:
             {
 
-                console.log("Left indicator clicked")
+                console.log("Google assistant clicked")
             }
         }
-        MyButtonsBackground {
-            text: "Right Indicator"
-            onClicked:
-            {
 
-                console.log("right indicator clicked")
-            }
-        }
+    }
+
+    Text {
+        id: titleShow
+        text : title
+        visible: false
+
+
     }
 }

@@ -1169,12 +1169,22 @@ qrc_Images.cpp: ../../Images.qrc \
 qrc_qml.cpp: ../../qml.qrc \
 		/home/shankar/Qt/6.7.0/gcc_64/libexec/rcc \
 		../../TellTale.qml \
+		../../AdvanceNavigation.qml \
+		../../UserProfile.qml \
+		../../Media.qml \
+		../../Settings.qml \
+		../../Sos.qml \
 		../../MyButtonsBackground.qml \
+		../../AmbientLighting.qml \
 		../../LeftSideButton.qml \
 		../../Connectivity.qml \
+		../../Updater.qml \
+		../../VoiceControl.qml \
 		../../Engine.qml \
+		../../InfotainmentCluster.qml \
 		../../main.qml \
-		../../MyButton.qml
+		../../MyButton.qml \
+		../../DriveModes.qml
 	/home/shankar/Qt/6.7.0/gcc_64/libexec/rcc -name qml ../../qml.qrc -o qrc_qml.cpp
 
 qrc_qmake_resources.cpp: qmake_resources.qrc \

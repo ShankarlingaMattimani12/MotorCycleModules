@@ -13,20 +13,30 @@ Rectangle {
         anchors.centerIn: parent
 
         MyButtonsBackground {
-            text: "Left Indicator"
+            text: "Maps"
             onClicked:
             {
 
-                console.log("Left indicator clicked")
+                console.log("Maps button clicked")
             }
+
         }
         MyButtonsBackground {
-            text: "Right Indicator"
+            text: "GPS"
             onClicked:
             {
 
-                console.log("right indicator clicked")
+                console.log("Gps button clicked")
             }
+
         }
+    }
+
+    Text {
+        id: titleShow
+        text : title
+        visible: false
+
+
     }
 }

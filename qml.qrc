@@ -7,5 +7,15 @@
         <file>MyButtonsBackground.qml</file>
         <file>Engine.qml</file>
         <file>Connectivity.qml</file>
+        <file>AdvanceNavigation.qml</file>
+        <file>Settings.qml</file>
+        <file>UserProfile.qml</file>
+        <file>Media.qml</file>
+        <file>DriveModes.qml</file>
+        <file>AmbientLighting.qml</file>
+        <file>VoiceControl.qml</file>
+        <file>Sos.qml</file>
+        <file>Updater.qml</file>
+        <file>InfotainmentCluster.qml</file>
     </qresource>
 </RCC>

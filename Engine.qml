@@ -4,7 +4,7 @@ import QtQuick.Controls 2.15
 Rectangle {
     width: parent.width * 0.75
     height: parent.height
-    color: "red"
+    color: "white"
 
     property string title: "Button clicked"
 
@@ -12,10 +12,13 @@ Rectangle {
         anchors.centerIn: parent
         spacing: 10
 
-        Button {
+        MyButtonsBackground {
             text: "Egine"
-            // onClicked: pageLoader.source = "qrc:/ClickedPage.qml"
-            onClicked: titleShow.visible = true
+            onClicked:
+            {
+
+                console.log("Google assistant clicked")
+            }
         }
     }
 

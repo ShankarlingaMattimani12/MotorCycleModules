@@ -17,24 +17,46 @@ Rectangle {
 
         MyButtonsBackground {
             text: "Pairing"
-            onClicked: pageLoader.source = "qrc:/ClickedPage.qml"
+            onClicked:
+            {
+
+                console.log("pairing buttton clicked")
+            }
         }
         MyButtonsBackground {
             text: "Bluetooth"
-            onClicked: pageLoader.source = "qrc:/ClickedPage.qml"
+            onClicked:
+            {
+
+                console.log("bluetooth button clicked")
+            }
         }
         MyButtonsBackground {
             text: "Wifi"
-            onClicked: pageLoader.source = "qrc:/ClickedPage.qml"
+            onClicked:
+            {
+
+                console.log("wifi button clicked")
+            }
         }
         MyButtonsBackground {
             text: "Android Auto"
-            onClicked: pageLoader.source = "qrc:/ClickedPage.qml"
+            onClicked:
+            {
+
+                console.log("android auto clicked")
+            }
         }
         MyButtonsBackground {
             text: "CarPlay"
-            onClicked: pageLoader.source = "qrc:/ClickedPage.qml"
+            onClicked:
+            {
+
+                console.log("Carplay button clicked")
+            }
         }
+
+
 
     }
 }
